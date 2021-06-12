@@ -6,7 +6,8 @@
   "devDependencies": {
     "prettier": "2.3.1"
   },
-  "scripts:": {
-    "format": "prettier --write index.html"
+  "scripts": {
+    "format": "prettier --write index.html",
+    "format:check": "prettier --check index.html"
   }
 }
